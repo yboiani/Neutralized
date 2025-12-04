@@ -61,9 +61,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\SniperScopeToggle.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\SniperScopeFOV.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Survivalist\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />

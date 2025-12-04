@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\",
+  "WorkspaceRootPath": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|c:\\users\\simon\\onedrive\\desktop\\neutralized\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|c:\\users\\yotam\\desktop\\shared unity 3d game\\neutralized\\assets\\sniperscopefov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\sniperscopefov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|c:\\users\\yotam\\desktop\\shared unity 3d game\\neutralized\\assets\\sniperscopetoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\sniperscopetoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SniperScopeFOV.cs",
+              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeFOV.cs",
+              "RelativeDocumentMoniker": "Assets\\SniperScopeFOV.cs",
+              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeFOV.cs",
+              "RelativeToolTip": "Assets\\SniperScopeFOV.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T07:31:57.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SniperScopeToggle.cs",
+              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeToggle.cs",
+              "RelativeDocumentMoniker": "Assets\\SniperScopeToggle.cs",
+              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeToggle.cs",
+              "RelativeToolTip": "Assets\\SniperScopeToggle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T07:22:50.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\GameManager.cs",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\GameManager.cs",
               "RelativeToolTip": "Assets\\GameManager.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwCYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T06:27:27.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T06:27:27.745Z"
             }
           ]
         }
