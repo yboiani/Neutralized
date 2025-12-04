@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
+    <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
   </ItemGroup>
   <ItemGroup>
