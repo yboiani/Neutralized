@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|c:\\users\\yotam\\desktop\\shared unity 3d game\\neutralized\\assets\\simplegameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|c:\\users\\yotam\\desktop\\shared unity 3d game\\neutralized\\assets\\easy fps\\scripts\\scopeuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\easy fps\\scripts\\scopeuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\NewBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Easy FPS\\Scripts\\NewBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\assets\\simplegameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\simplegameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -38,11 +46,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewBehaviourScript.cs",
+              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\NewBehaviourScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Easy FPS\\Scripts\\NewBehaviourScript.cs",
+              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\NewBehaviourScript.cs",
+              "RelativeToolTip": "Assets\\Easy FPS\\Scripts\\NewBehaviourScript.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T06:16:58.061Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ScopeUIController.cs",
+              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\ScopeUIController.cs",
+              "RelativeDocumentMoniker": "Assets\\Easy FPS\\Scripts\\ScopeUIController.cs",
+              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\ScopeUIController.cs",
+              "RelativeToolTip": "Assets\\Easy FPS\\Scripts\\ScopeUIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T05:48:16.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SimpleGameUI.cs",
               "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SimpleGameUI.cs",
               "RelativeDocumentMoniker": "Assets\\SimpleGameUI.cs",
@@ -50,12 +82,11 @@
               "RelativeToolTip": "Assets\\SimpleGameUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T04:18:39.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T04:18:39.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SniperShoot.cs",
               "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperShoot.cs",
               "RelativeDocumentMoniker": "Assets\\SniperShoot.cs",
@@ -67,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SpyGameManager.cs",
               "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SpyGameManager.cs",
               "RelativeDocumentMoniker": "Assets\\SpyGameManager.cs",
@@ -79,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "NpcController.cs",
               "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\NpcController.cs",
               "RelativeDocumentMoniker": "Assets\\NpcController.cs",
@@ -91,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "SniperScopeFOV.cs",
               "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeFOV.cs",
               "RelativeDocumentMoniker": "Assets\\SniperScopeFOV.cs",
@@ -103,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SniperScopeToggle.cs",
               "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeToggle.cs",
               "RelativeDocumentMoniker": "Assets\\SniperScopeToggle.cs",
@@ -115,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\GameManager.cs",
