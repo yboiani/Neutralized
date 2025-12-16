@@ -1,17 +1,17 @@
 using UnityEngine;
 using Cinemachine;
-using UnityEngine.UI;
 
 public class SniperScopeFOV : MonoBehaviour
 {
     public CinemachineVirtualCamera playerVcam;
+
     public float normalFOV = 40f;
-    public float scopedFOV = 5f;   // more zoom
+    public float scopedFOV = 5f;
     public float zoomSpeed = 10f;
 
-    public GameObject scopeOverlay;   // <-- NEW
+    public GameObject scopeOverlay;     // scope image
+    public GameObject scopeVignette;    // NEW dark layer
 
-    private bool isScoped = false;
     private float currentFOV;
 
     void Start()
@@ -24,23 +24,31 @@ public class SniperScopeFOV : MonoBehaviour
 
         if (scopeOverlay != null)
             scopeOverlay.SetActive(false);
+
+        if (scopeVignette != null)
+            scopeVignette.SetActive(false);
     }
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(1))
-        {
-            isScoped = !isScoped;
+        // HOLD right click (NOT toggle)
+        bool isScoped = Input.GetMouseButton(1);
 
-            if (scopeOverlay != null)
-                scopeOverlay.SetActive(isScoped); // <-- NEW
-        }
+        if (scopeOverlay != null)
+            scopeOverlay.SetActive(isScoped);
+
+        if (scopeVignette != null)
+            scopeVignette.SetActive(isScoped);
 
         if (playerVcam != null)
         {
             float targetFOV = isScoped ? scopedFOV : normalFOV;
 
-            currentFOV = Mathf.Lerp(currentFOV, targetFOV, Time.deltaTime * zoomSpeed);
+            currentFOV = Mathf.Lerp(
+                currentFOV,
+                targetFOV,
+                Time.deltaTime * zoomSpeed
+            );
 
             var lens = playerVcam.m_Lens;
             lens.FieldOfView = currentFOV;

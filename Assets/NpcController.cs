@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class NpcController : MonoBehaviour
 {
@@ -8,38 +9,56 @@ public class NpcController : MonoBehaviour
 
     [Header("Movement Settings")]
     public bool enableMovement = true;
-    [Tooltip("How fast the NPC walks (units per second).")]
-    public float moveSpeed = 1.5f;
+
     [Tooltip("How far from their start position they are allowed to roam.")]
-    public float roamRadius = 2.0f;
+    public float roamRadius = 6.0f;
+
     [Tooltip("Minimum time to wait between walks.")]
     public float minIdleTime = 1.0f;
+
     [Tooltip("Maximum time to wait between walks.")]
     public float maxIdleTime = 3.0f;
 
+    [Tooltip("How close the agent must be to consider destination reached.")]
+    public float arriveDistance = 0.25f;
+
+    [Header("NavMesh")]
+    public NavMeshAgent agent;
+
     private Vector3 _startPosition;
-    private Vector3 _currentTarget;
     private float _idleTimer;
 
     private enum State { Idle, Walking }
     private State _state = State.Idle;
 
+    void Awake()
+    {
+        if (agent == null) agent = GetComponent<NavMeshAgent>();
+    }
+
     void Start()
     {
-        // starting position for roaming
         _startPosition = transform.position;
         PickNewIdleTime();
     }
 
     void Update()
     {
-        if (!enableMovement) return;
+        if (!enableMovement)
+        {
+            if (agent != null) agent.isStopped = true;
+            return;
+        }
+
+        if (agent == null || !agent.isOnNavMesh)
+            return;
 
         switch (_state)
         {
             case State.Idle:
                 HandleIdle();
                 break;
+
             case State.Walking:
                 HandleWalking();
                 break;
@@ -57,25 +76,15 @@ public class NpcController : MonoBehaviour
 
     void HandleWalking()
     {
-        // keep movement on the ground plane
-        Vector3 target = new Vector3(_currentTarget.x, transform.position.y, _currentTarget.z);
+        // If agent has no path yet, just wait a moment
+        if (agent.pathPending) return;
 
-        transform.position = Vector3.MoveTowards(
-            transform.position,
-            target,
-            moveSpeed * Time.deltaTime
-        );
+        // Consider arrived when close enough OR no path remaining
+        bool arrived =
+            (!agent.hasPath) ||
+            (agent.remainingDistance <= Mathf.Max(arriveDistance, agent.stoppingDistance));
 
-        // rotate to face movement direction
-        Vector3 dir = target - transform.position;
-        dir.y = 0f;
-        if (dir.sqrMagnitude > 0.0001f)
-        {
-            Quaternion look = Quaternion.LookRotation(dir);
-            transform.rotation = Quaternion.Slerp(transform.rotation, look, 10f * Time.deltaTime);
-        }
-
-        if (Vector3.Distance(transform.position, target) < 0.05f)
+        if (arrived)
         {
             PickNewIdleTime();
         }
@@ -85,31 +94,58 @@ public class NpcController : MonoBehaviour
     {
         _idleTimer = Random.Range(minIdleTime, maxIdleTime);
         _state = State.Idle;
+
+        if (agent != null)
+        {
+            agent.isStopped = true;
+            agent.ResetPath();
+        }
     }
 
     void ChooseNewDestination()
     {
-        Vector2 circle = Random.insideUnitCircle * roamRadius;
-        _currentTarget = new Vector3(
-            _startPosition.x + circle.x,
-            _startPosition.y,
-            _startPosition.z + circle.y
-        );
-        _state = State.Walking;
+        // Try a few random samples until we find a valid NavMesh point
+        const int maxTries = 12;
+
+        for (int i = 0; i < maxTries; i++)
+        {
+            Vector2 circle = Random.insideUnitCircle * roamRadius;
+            Vector3 randomWorld = new Vector3(
+                _startPosition.x + circle.x,
+                _startPosition.y,
+                _startPosition.z + circle.y
+            );
+
+            // Snap to navmesh
+            if (NavMesh.SamplePosition(randomWorld, out NavMeshHit hit, 2.0f, NavMesh.AllAreas))
+            {
+                agent.isStopped = false;
+                agent.SetDestination(hit.position);
+                _state = State.Walking;
+                return;
+            }
+        }
+
+        // If we failed to find a point, just idle again
+        PickNewIdleTime();
     }
 
-    // Called by SpyGameManager when we want to visually mark the spy.
-    // Right now it's a no-op; later you can add: change color, hat, etc.
+    // Later: highlight spy, outline, etc.
     public void SetSpyVisual(bool show)
     {
-        // intentionally left empty for now
+        // intentionally empty
     }
 
-    // Called by the sniper script when this NPC gets shot
     public void OnShot()
     {
         enableMovement = false;
-        // simplest possible reaction: disappear
+
+        if (agent != null)
+        {
+            agent.isStopped = true;
+            agent.ResetPath();
+        }
+
         gameObject.SetActive(false);
     }
 }

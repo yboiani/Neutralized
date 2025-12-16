@@ -65,11 +65,11 @@
     <Compile Include="Assets\Easy FPS\Scripts\MouseLookScript.cs" />
     <Compile Include="Assets\Kinemation\SightsAligner\AnimToolkitLib.cs" />
     <Compile Include="Assets\Easy FPS\Scripts\GunScript.cs" />
+    <Compile Include="Assets\Easy FPS\Scripts\ScopeAimingCinemachine.cs" />
     <Compile Include="Assets\Kinemation\SightsAligner\CoreAnimComponent.cs" />
     <Compile Include="Assets\Easy FPS\Scripts\DestroyAfterTimeParticle.cs" />
     <Compile Include="Assets\SniperShoot.cs" />
     <Compile Include="Assets\SimpleGameUI.cs" />
-    <Compile Include="Assets\Easy FPS\Scripts\ScopeUIController.cs" />
     <Compile Include="Assets\Kinemation\SightsAligner\TargetAimData.cs" />
     <Compile Include="Assets\NpcController.cs" />
     <Compile Include="Assets\SniperScopeToggle.cs" />
