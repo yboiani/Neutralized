@@ -64,6 +64,8 @@
     <Compile Include="Assets\Easy FPS\Scripts\ScopeAimController.cs" />
     <Compile Include="Assets\Easy FPS\Scripts\MouseLookScript.cs" />
     <Compile Include="Assets\Kinemation\SightsAligner\AnimToolkitLib.cs" />
+    <Compile Include="Assets\Mess Maker Free\Scripts\MessMaker.cs" />
+    <Compile Include="Assets\Mess Maker Free\Scripts\SimpleController.cs" />
     <Compile Include="Assets\Easy FPS\Scripts\GunScript.cs" />
     <Compile Include="Assets\Easy FPS\Scripts\ScopeAimingCinemachine.cs" />
     <Compile Include="Assets\Kinemation\SightsAligner\CoreAnimComponent.cs" />
@@ -72,6 +74,7 @@
     <Compile Include="Assets\SimpleGameUI.cs" />
     <Compile Include="Assets\Kinemation\SightsAligner\TargetAimData.cs" />
     <Compile Include="Assets\NpcController.cs" />
+    <Compile Include="Assets\Mess Maker Free\Scripts\MessMakerPoole.cs" />
     <Compile Include="Assets\SniperScopeToggle.cs" />
     <Compile Include="Assets\Kevin Iglesias\Human Animations\Scripts\SpineProxy.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
@@ -79,6 +82,7 @@
     <Compile Include="Assets\Easy FPS\Scripts\GunInventory.cs" />
     <Compile Include="Assets\Easy FPS\Scripts\BulletScript.cs" />
     <Compile Include="Assets\Easy FPS\Scripts\PlayerMovementScript.cs" />
+    <Compile Include="Assets\Mess Maker Free\Scripts\SimpleCamControl.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\SpyGameManager.cs" />
     <Compile Include="Assets\SniperScopeFOV.cs" />
@@ -946,6 +950,10 @@
       <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1022,6 +1030,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1034,16 +1046,24 @@
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Cinemachine">
       <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
