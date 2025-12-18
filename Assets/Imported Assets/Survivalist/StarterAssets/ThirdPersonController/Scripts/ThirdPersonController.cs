@@ -16,6 +16,9 @@ namespace StarterAssets
         // =============================
         public bool IsPaused = false;
 
+        [Header("Camera Sensitivity")]
+        public float mouseSensitivity = 1.0f;  // default = normal speed
+
         [Header("Player")]
         public float MoveSpeed = 2.0f;
         public float SprintSpeed = 5.335f;
@@ -159,8 +162,10 @@ namespace StarterAssets
         {
             if (_input.look.sqrMagnitude >= _threshold && !LockCameraPosition)
             {
-                _cinemachineTargetYaw += _input.look.x * Time.deltaTime;
-                _cinemachineTargetPitch += _input.look.y * Time.deltaTime;
+                _cinemachineTargetYaw += _input.look.x * Time.deltaTime * mouseSensitivity;
+
+                _cinemachineTargetPitch += _input.look.y * Time.deltaTime * mouseSensitivity;
+
             }
 
             _cinemachineTargetYaw = ClampAngle(_cinemachineTargetYaw, float.MinValue, float.MaxValue);

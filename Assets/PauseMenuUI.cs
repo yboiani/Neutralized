@@ -1,51 +1,65 @@
 using StarterAssets;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PauseMenuUI : MonoBehaviour
 {
     public GameObject pauseCanvas;
+    public GameObject instructionsPanel;
+    public GameObject settingsPanel;
     public ThirdPersonController player;
 
-    private void Start()
+    void Start()
     {
         pauseCanvas.SetActive(false);
+        instructionsPanel.SetActive(false);
+        settingsPanel.SetActive(false);
     }
 
-    private void Update()
+    void Update()
     {
-        // Listen for ESC handled by the player script
         if (player.IsPaused && !pauseCanvas.activeSelf)
-        {
-            ShowPauseMenu();
-        }
-        else if (!player.IsPaused && pauseCanvas.activeSelf)
-        {
-            HidePauseMenu();
-        }
+            pauseCanvas.SetActive(true);
+
+        if (!player.IsPaused && pauseCanvas.activeSelf)
+            pauseCanvas.SetActive(false);
     }
 
-    public void ShowPauseMenu()
-    {
-        pauseCanvas.SetActive(true);
-    }
-
-    public void HidePauseMenu()
-    {
-        pauseCanvas.SetActive(false);
-    }
+    // ===== MAIN MENU BUTTONS ======
 
     public void ResumeGame()
     {
+        player.IsPaused = false;
+    }
 
-        player.ResumeGame();     // <<< CALLS THE FUNCTION THAT LOCKS THE CURSOR
+    public void OpenInstructions()
+    {
+        instructionsPanel.SetActive(true);
         pauseCanvas.SetActive(false);
-        Time.timeScale = 1f;
+    }
+
+    public void OpenSettings()
+    {
+        settingsPanel.SetActive(true);
+        pauseCanvas.SetActive(false);
     }
 
     public void QuitGame()
     {
         Application.Quit();
         Debug.Log("Quit Game");
+    }
+
+    // ===== SUBMENU BACK BUTTONS =====
+
+    public void BackFromInstructions()
+    {
+        instructionsPanel.SetActive(false);
+        pauseCanvas.SetActive(true);
+    }
+
+    public void BackFromSettings()
+    {
+        settingsPanel.SetActive(false);
+        pauseCanvas.SetActive(true);
     }
 }

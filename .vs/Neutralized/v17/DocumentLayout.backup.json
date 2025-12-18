@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|c:\\users\\simon\\onedrive\\desktop\\neutralized\\assets\\imported assets\\survivalist\\starterassets\\thirdpersoncontroller\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\assets\\imported assets\\survivalist\\starterassets\\thirdpersoncontroller\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\imported assets\\survivalist\\starterassets\\thirdpersoncontroller\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|c:\\users\\simon\\onedrive\\desktop\\neutralized\\assets\\npcanimationoffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\assets\\pausemenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\pausemenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|c:\\users\\simon\\onedrive\\desktop\\neutralized\\assets\\instructionsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\instructionsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\assets\\npcanimationoffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\npcanimationoffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InstructionsMenu.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\InstructionsMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\InstructionsMenu.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\InstructionsMenu.cs",
+              "RelativeToolTip": "Assets\\InstructionsMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T01:52:15.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PauseMenuUI.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\PauseMenuUI.cs",
+              "RelativeDocumentMoniker": "Assets\\PauseMenuUI.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\PauseMenuUI.cs",
+              "RelativeToolTip": "Assets\\PauseMenuUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T01:41:12.815Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +62,14 @@
               "RelativeDocumentMoniker": "Assets\\Imported Assets\\Survivalist\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
               "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\Imported Assets\\Survivalist\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
               "RelativeToolTip": "Assets\\Imported Assets\\Survivalist\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
-              "ViewState": "AgIAAA0BAAAAAAAAAAAIwEEBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAewKcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-18T01:22:23.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "NpcAnimationOffset.cs",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\NpcAnimationOffset.cs",
               "RelativeDocumentMoniker": "Assets\\NpcAnimationOffset.cs",
@@ -43,8 +77,7 @@
               "RelativeToolTip": "Assets\\NpcAnimationOffset.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T01:08:52.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T01:08:52.046Z"
             }
           ]
         }
