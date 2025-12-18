@@ -10,16 +10,9 @@ public class NpcController : MonoBehaviour
     [Header("Movement Settings")]
     public bool enableMovement = true;
 
-    [Tooltip("How far from their start position they are allowed to roam.")]
     public float roamRadius = 6.0f;
-
-    [Tooltip("Minimum time to wait between walks.")]
     public float minIdleTime = 1.0f;
-
-    [Tooltip("Maximum time to wait between walks.")]
     public float maxIdleTime = 3.0f;
-
-    [Tooltip("How close the agent must be to consider destination reached.")]
     public float arriveDistance = 0.25f;
 
     [Header("NavMesh")]
@@ -39,19 +32,25 @@ public class NpcController : MonoBehaviour
     void Start()
     {
         _startPosition = transform.position;
-        PickNewIdleTime();
+        PickNewIdleTimeSafe(); // SAFE version
     }
 
     void Update()
     {
+        if (agent == null) return;
+
         if (!enableMovement)
         {
-            if (agent != null) agent.isStopped = true;
+            if (agent.isOnNavMesh) agent.isStopped = true;
             return;
         }
 
-        if (agent == null || !agent.isOnNavMesh)
+        // If not on navmesh yet, keep trying to place it
+        if (!agent.isOnNavMesh)
+        {
+            TryWarpToNavMesh();
             return;
+        }
 
         switch (_state)
         {
@@ -76,26 +75,25 @@ public class NpcController : MonoBehaviour
 
     void HandleWalking()
     {
-        // If agent has no path yet, just wait a moment
+        if (!agent.isOnNavMesh) return;
         if (agent.pathPending) return;
 
-        // Consider arrived when close enough OR no path remaining
         bool arrived =
             (!agent.hasPath) ||
             (agent.remainingDistance <= Mathf.Max(arriveDistance, agent.stoppingDistance));
 
         if (arrived)
         {
-            PickNewIdleTime();
+            PickNewIdleTimeSafe();
         }
     }
 
-    void PickNewIdleTime()
+    void PickNewIdleTimeSafe()
     {
         _idleTimer = Random.Range(minIdleTime, maxIdleTime);
         _state = State.Idle;
 
-        if (agent != null)
+        if (agent != null && agent.isOnNavMesh)
         {
             agent.isStopped = true;
             agent.ResetPath();
@@ -104,7 +102,8 @@ public class NpcController : MonoBehaviour
 
     void ChooseNewDestination()
     {
-        // Try a few random samples until we find a valid NavMesh point
+        if (agent == null || !agent.isOnNavMesh) return;
+
         const int maxTries = 12;
 
         for (int i = 0; i < maxTries; i++)
@@ -116,8 +115,7 @@ public class NpcController : MonoBehaviour
                 _startPosition.z + circle.y
             );
 
-            // Snap to navmesh
-            if (NavMesh.SamplePosition(randomWorld, out NavMeshHit hit, 2.0f, NavMesh.AllAreas))
+            if (NavMesh.SamplePosition(randomWorld, out NavMeshHit hit, 3.0f, NavMesh.AllAreas))
             {
                 agent.isStopped = false;
                 agent.SetDestination(hit.position);
@@ -126,21 +124,29 @@ public class NpcController : MonoBehaviour
             }
         }
 
-        // If we failed to find a point, just idle again
-        PickNewIdleTime();
+        PickNewIdleTimeSafe();
     }
 
-    // Later: highlight spy, outline, etc.
-    public void SetSpyVisual(bool show)
+    void TryWarpToNavMesh()
     {
-        // intentionally empty
+        if (agent == null) return;
+
+        // Try to snap the agent onto the nearest navmesh point near its current position
+        if (NavMesh.SamplePosition(transform.position, out NavMeshHit hit, 5.0f, NavMesh.AllAreas))
+        {
+            agent.Warp(hit.position);
+            _startPosition = hit.position;
+            PickNewIdleTimeSafe();
+        }
     }
+
+    public void SetSpyVisual(bool show) { }
 
     public void OnShot()
     {
         enableMovement = false;
 
-        if (agent != null)
+        if (agent != null && agent.isOnNavMesh)
         {
             agent.isStopped = true;
             agent.ResetPath();
