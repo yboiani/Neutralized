@@ -364,11 +364,13 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Assets and Scripts/GameManager.cs"
 "Assets/Assets and Scripts/NpcController.cs"
+"Assets/Assets and Scripts/NPCStationAnimator.cs"
 "Assets/Assets and Scripts/SimpleGameUI.cs"
 "Assets/Assets and Scripts/SniperScopeFOV.cs"
 "Assets/Assets and Scripts/SniperScopeToggle.cs"
 "Assets/Assets and Scripts/SniperShoot.cs"
 "Assets/Assets and Scripts/SpyGameManager.cs"
+"Assets/Assets and Scripts/SpyRandomizer.cs"
 "Assets/Imported Assets/Easy FPS/Scripts/BulletScript.cs"
 "Assets/Imported Assets/Easy FPS/Scripts/DestroyAfterTimeParticle.cs"
 "Assets/Imported Assets/Easy FPS/Scripts/GunInventory.cs"
@@ -390,6 +392,7 @@
 "Assets/Imported Assets/Survivalist/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs"
 "Assets/MainMenu.cs"
 "Assets/NpcAnimationOffset.cs"
+"Assets/RoundTimerUI.cs"
 -langversion:9.0
 
 /deterministic

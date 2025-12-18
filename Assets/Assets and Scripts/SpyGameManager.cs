@@ -4,23 +4,41 @@ public class SpyGameManager : MonoBehaviour
 {
     public static SpyGameManager Instance;
 
-    [Header("NPCs")]
+    [Header("NPCs (auto-filled)")]
     public NpcController[] npcs;
     public NpcController spy;
+
+    [Header("Animator Controllers")]
+    [Tooltip("Normal NPC controller (ex: NPC_Idles). If empty, uses whatever NPC already has.")]
+    public RuntimeAnimatorController npcIdleController;
+
+    [Tooltip("Spy-only controller (ex: NPC_Spy). REQUIRED for spy actions.")]
+    public RuntimeAnimatorController spyController;
+
+    [Header("Presentation Mode (Freeze NPCs)")]
+    public bool freezeAllNpcMovement = true;
+
+    [Header("Spy Actions (Animations)")]
+    public bool enableSpyActions = true;
+    public float minActionDelay = 6f;
+    public float maxActionDelay = 12f;
+
+    [Tooltip("These must exist as TRIGGER parameters in the SPY controller.")]
+    public string triggerPeek = "DoPeek";
+    public string triggerPhone = "DoPhone";
+    public string triggerBug = "DoBug";
 
     [Header("Game State")]
     public bool gameOver = false;
     public bool playerWon = false;
-    [TextArea]
-    public string lastMessage = "";
+    [TextArea] public string lastMessage = "";
 
     [Header("NPC Collider Settings")]
-    [Tooltip("Height of the capsule collider for each NPC.")]
     public float colliderHeight = 1.8f;
-    [Tooltip("Radius of the capsule collider for each NPC.")]
     public float colliderRadius = 0.28f;
-    [Tooltip("Vertical center of the collider relative to NPC pivot.")]
     public float colliderCenterY = 0.9f;
+
+    private float _nextSpyActionTime = -1f;
 
     void Awake()
     {
@@ -34,48 +52,111 @@ public class SpyGameManager : MonoBehaviour
 
     void Start()
     {
-        // Find all NPCs in the scene
+        // 1) Find all NPCs
         npcs = FindObjectsOfType<NpcController>();
 
-        if (npcs.Length == 0)
+        if (npcs == null || npcs.Length == 0)
         {
-            Debug.LogError("SpyGameManager: no NPCs found in the scene!");
+            Debug.LogError("SpyGameManager: no NPCs found (NpcController) in the scene!");
             return;
         }
 
-        // Ensure each has a collider and a nice name
+        // 2) Setup colliders + optional freeze
         for (int i = 0; i < npcs.Length; i++)
         {
             var npc = npcs[i];
+            if (npc == null) continue;
 
             SetupNpcCollider(npc);
 
             if (string.IsNullOrEmpty(npc.npcName))
-            {
                 npc.npcName = $"NPC_{i + 1}";
-            }
 
             npc.gameObject.name = npc.npcName;
+
+            if (freezeAllNpcMovement)
+                npc.enableMovement = false;
+
+            // If you want to FORCE everyone to use the idle controller at start:
+            if (npcIdleController != null)
+            {
+                var a = npc.GetComponent<Animator>();
+                if (a != null) a.runtimeAnimatorController = npcIdleController;
+            }
+
+            npc.isSpy = false; // reset
         }
 
-        // Randomly select the spy
+        // 3) Pick spy at random
         int spyIndex = Random.Range(0, npcs.Length);
         spy = npcs[spyIndex];
         spy.isSpy = true;
-        spy.SetSpyVisual(false);   // remains visually normal for now
+        spy.SetSpyVisual(false);
 
-        Debug.Log($"[SpyGameManager] Spy is: {spy.npcName} (secret).");
+        // 4) Swap ONLY the spy's controller to NPC_Spy
+        if (spyController != null)
+        {
+            var spyAnim = spy.GetComponent<Animator>();
+            if (spyAnim != null)
+                spyAnim.runtimeAnimatorController = spyController;
+            else
+                Debug.LogWarning("SpyGameManager: Spy has no Animator component.");
+        }
+        else
+        {
+            Debug.LogWarning("SpyGameManager: spyController is NOT assigned, so spy actions won't work.");
+        }
+
+        Debug.Log($"[SpyGameManager] Spy chosen: {spy.npcName} (secret).");
+
+        // 5) Schedule first spy action
+        if (enableSpyActions)
+            ScheduleNextSpyAction();
+    }
+
+    void Update()
+    {
+        if (!enableSpyActions) return;
+        if (gameOver) return;
+        if (spy == null) return;
+
+        if (Time.time >= _nextSpyActionTime)
+        {
+            DoRandomSpyAction();
+            ScheduleNextSpyAction();
+        }
+    }
+
+    void ScheduleNextSpyAction()
+    {
+        float delay = Random.Range(minActionDelay, maxActionDelay);
+        _nextSpyActionTime = Time.time + delay;
+    }
+
+    void DoRandomSpyAction()
+    {
+        var anim = spy.GetComponent<Animator>();
+        if (anim == null) return;
+
+        // Pick one of the three actions
+        int r = Random.Range(0, 3);
+
+        string trig = (r == 0) ? triggerPeek : (r == 1) ? triggerPhone : triggerBug;
+
+        // Fire trigger (must exist on the spy controller)
+        anim.ResetTrigger(triggerPeek);
+        anim.ResetTrigger(triggerPhone);
+        anim.ResetTrigger(triggerBug);
+
+        anim.SetTrigger(trig);
     }
 
     void SetupNpcCollider(NpcController npc)
     {
         CapsuleCollider col = npc.GetComponent<CapsuleCollider>();
-        if (col == null)
-        {
-            col = npc.gameObject.AddComponent<CapsuleCollider>();
-        }
+        if (col == null) col = npc.gameObject.AddComponent<CapsuleCollider>();
 
-        col.direction = 1; // Y-axis
+        col.direction = 1; // Y axis
         col.height = colliderHeight;
         col.radius = colliderRadius;
         col.center = new Vector3(0f, colliderCenterY, 0f);
@@ -85,16 +166,9 @@ public class SpyGameManager : MonoBehaviour
     {
         if (gameOver) return;
 
-        if (npc == null)
-        {
-            lastMessage = "You missed… that wasn’t even an NPC.";
-            Debug.Log(lastMessage);
-            return;
-        }
-
         gameOver = true;
 
-        if (npc.isSpy)
+        if (npc != null && npc.isSpy)
         {
             playerWon = true;
             lastMessage = $"YOU WIN!\nYou correctly shot the spy: {npc.npcName}.";
@@ -102,7 +176,8 @@ public class SpyGameManager : MonoBehaviour
         else
         {
             playerWon = false;
-            lastMessage = $"YOU LOSE!\n{npc.npcName} was innocent.\nThe real spy was: {spy.npcName}.";
+            string shotName = (npc == null) ? "Nothing" : npc.npcName;
+            lastMessage = $"YOU LOSE!\nYou shot: {shotName}.\nThe real spy was: {spy.npcName}.";
         }
 
         Debug.Log(lastMessage);

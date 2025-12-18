@@ -68,6 +68,7 @@
     <Compile Include="Assets\Imported Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\Imported Assets\Mess Maker Free\Scripts\MessMakerPoole.cs" />
     <Compile Include="Assets\Imported Assets\Kinemation\SightsAligner\CoreAnimComponent.cs" />
+    <Compile Include="Assets\Assets and Scripts\NPCStationAnimator.cs" />
     <Compile Include="Assets\Assets and Scripts\SimpleGameUI.cs" />
     <Compile Include="Assets\Imported Assets\Kinemation\SightsAligner\TargetAimData.cs" />
     <Compile Include="Assets\Imported Assets\Survivalist\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
@@ -75,9 +76,11 @@
     <Compile Include="Assets\Imported Assets\Easy FPS\Scripts\GunScript.cs" />
     <Compile Include="Assets\Assets and Scripts\SniperShoot.cs" />
     <Compile Include="Assets\Assets and Scripts\GameManager.cs" />
+    <Compile Include="Assets\Assets and Scripts\SpyRandomizer.cs" />
     <Compile Include="Assets\Imported Assets\Mess Maker Free\Scripts\SimpleController.cs" />
     <Compile Include="Assets\Imported Assets\Easy FPS\Scripts\BulletScript.cs" />
     <Compile Include="Assets\Imported Assets\Easy FPS\Scripts\GunInventory.cs" />
+    <Compile Include="Assets\RoundTimerUI.cs" />
     <Compile Include="Assets\Imported Assets\Easy FPS\Scripts\PlayerMovementScript.cs" />
     <Compile Include="Assets\Assets and Scripts\NpcController.cs" />
     <Compile Include="Assets\Imported Assets\Mess Maker Free\Scripts\SimpleCamControl.cs" />
