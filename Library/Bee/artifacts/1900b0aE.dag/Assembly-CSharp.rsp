@@ -390,6 +390,7 @@
 "Assets/Imported Assets/Survivalist/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs"
 "Assets/MainMenu.cs"
 "Assets/NpcAnimationOffset.cs"
+"Assets/PauseMenuUI.cs"
 -langversion:9.0
 
 /deterministic

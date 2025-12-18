@@ -64,6 +64,7 @@
     <Compile Include="Assets\Imported Assets\Kinemation\SightsAligner\AnimToolkitLib.cs" />
     <Compile Include="Assets\Imported Assets\Easy FPS\Scripts\ScopeAimingCinemachine.cs" />
     <Compile Include="Assets\Assets and Scripts\SpyGameManager.cs" />
+    <Compile Include="Assets\PauseMenuUI.cs" />
     <Compile Include="Assets\Imported Assets\Easy FPS\Scripts\ScopeAimController.cs" />
     <Compile Include="Assets\Imported Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\Imported Assets\Mess Maker Free\Scripts\MessMakerPoole.cs" />
