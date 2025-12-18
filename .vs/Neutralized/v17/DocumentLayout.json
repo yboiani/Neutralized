@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\",
+  "WorkspaceRootPath": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|c:\\users\\yotam\\desktop\\shared unity 3d game\\neutralized\\assets\\roundtimerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\roundtimerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|c:\\users\\simon\\onedrive\\desktop\\neutralized\\assets\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|c:\\users\\yotam\\desktop\\shared unity 3d game\\neutralized\\assets\\assets and scripts\\spygamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\assets and scripts\\spygamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|c:\\users\\simon\\onedrive\\desktop\\neutralized\\assets\\imported assets\\survivalist\\starterassets\\thirdpersoncontroller\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\imported assets\\survivalist\\starterassets\\thirdpersoncontroller\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\assets\\npcanimationoffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\assets\\pausemenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\pausemenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\assets\\instructionsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\instructionsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\assets\\npcanimationoffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\npcanimationoffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\assets\\assets and scripts\\npcstationanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\assets and scripts\\npcstationanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\assets\\assets and scripts\\spyrandomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\assets and scripts\\spyrandomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,62 +35,62 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RoundTimerUI.cs",
-              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\RoundTimerUI.cs",
-              "RelativeDocumentMoniker": "Assets\\RoundTimerUI.cs",
-              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\RoundTimerUI.cs",
-              "RelativeToolTip": "Assets\\RoundTimerUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Title": "SettingsMenu.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\SettingsMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\SettingsMenu.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\SettingsMenu.cs",
+              "RelativeToolTip": "Assets\\SettingsMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T02:18:15.847Z",
+              "WhenOpened": "2025-12-18T02:20:07.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SpyGameManager.cs",
-              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Assets and Scripts\\SpyGameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Assets and Scripts\\SpyGameManager.cs",
-              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Assets and Scripts\\SpyGameManager.cs",
-              "RelativeToolTip": "Assets\\Assets and Scripts\\SpyGameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "InstructionsMenu.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\InstructionsMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\InstructionsMenu.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\InstructionsMenu.cs",
+              "RelativeToolTip": "Assets\\InstructionsMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T01:54:50.126Z",
+              "WhenOpened": "2025-12-18T01:52:15.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PauseMenuUI.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\PauseMenuUI.cs",
+              "RelativeDocumentMoniker": "Assets\\PauseMenuUI.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\PauseMenuUI.cs",
+              "RelativeToolTip": "Assets\\PauseMenuUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T01:41:12.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThirdPersonController.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\Imported Assets\\Survivalist\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
+              "RelativeDocumentMoniker": "Assets\\Imported Assets\\Survivalist\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\Imported Assets\\Survivalist\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
+              "RelativeToolTip": "Assets\\Imported Assets\\Survivalist\\StarterAssets\\ThirdPersonController\\Scripts\\ThirdPersonController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAewKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T01:22:23.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SpyRandomizer.cs",
-              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Assets and Scripts\\SpyRandomizer.cs",
-              "RelativeDocumentMoniker": "Assets\\Assets and Scripts\\SpyRandomizer.cs",
-              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Assets and Scripts\\SpyRandomizer.cs",
-              "RelativeToolTip": "Assets\\Assets and Scripts\\SpyRandomizer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAzwD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T01:54:24.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NPCStationAnimator.cs",
-              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Assets and Scripts\\NPCStationAnimator.cs",
-              "RelativeDocumentMoniker": "Assets\\Assets and Scripts\\NPCStationAnimator.cs",
-              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Assets and Scripts\\NPCStationAnimator.cs",
-              "RelativeToolTip": "Assets\\Assets and Scripts\\NPCStationAnimator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T01:23:16.388Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "NpcAnimationOffset.cs",
-              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\NpcAnimationOffset.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\NpcAnimationOffset.cs",
               "RelativeDocumentMoniker": "Assets\\NpcAnimationOffset.cs",
-              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\NpcAnimationOffset.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\NpcAnimationOffset.cs",
               "RelativeToolTip": "Assets\\NpcAnimationOffset.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-18T01:08:52.046Z"
             }

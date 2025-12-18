@@ -390,9 +390,15 @@
 "Assets/Imported Assets/Survivalist/StarterAssets/InputSystem/StarterAssetsInputs.cs"
 "Assets/Imported Assets/Survivalist/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/Imported Assets/Survivalist/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs"
+"Assets/InstructionsMenu.cs"
 "Assets/MainMenu.cs"
 "Assets/NpcAnimationOffset.cs"
+<<<<<<< HEAD
 "Assets/RoundTimerUI.cs"
+=======
+"Assets/PauseMenuUI.cs"
+"Assets/SettingsMenu.cs"
+>>>>>>> 5a89510bdde949fc89ee71d1d643425c4d044313
 -langversion:9.0
 
 /deterministic
