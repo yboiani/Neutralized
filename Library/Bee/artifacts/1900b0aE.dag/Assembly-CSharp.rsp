@@ -388,6 +388,7 @@
 "Assets/Imported Assets/Survivalist/StarterAssets/InputSystem/StarterAssetsInputs.cs"
 "Assets/Imported Assets/Survivalist/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/Imported Assets/Survivalist/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs"
+"Assets/MainMenu.cs"
 -langversion:9.0
 
 /deterministic

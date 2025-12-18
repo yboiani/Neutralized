@@ -1,15 +1,1 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-C:\Users\Yotam\Desktop\Shared Unity 3D game\Neutralized
-=======
-=======
->>>>>>> Stashed changes
-<<<<<<< HEAD
-C:\Users\simon\OneDrive\Desktop\Neutralized\Neutralized
-=======
-C:\Users\Yotam\Desktop\Shared Unity 3D game\Neutralized
->>>>>>> 4d8c134ad668937e6a1f2ac98df6dd09ba47b990
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+C:\Users\simon\OneDrive\Desktop\Neutralized
