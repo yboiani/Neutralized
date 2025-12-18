@@ -85,6 +85,7 @@
     <Compile Include="Assets\Imported Assets\Mess Maker Free\Scripts\MessMaker.cs" />
     <Compile Include="Assets\Imported Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\Imported Assets\Easy FPS\Scripts\DestroyAfterTimeParticle.cs" />
+    <Compile Include="Assets\NpcAnimationOffset.cs" />
     <Compile Include="Assets\Assets and Scripts\SniperScopeFOV.cs" />
     <Compile Include="Assets\MainMenu.cs" />
   </ItemGroup>

@@ -3,54 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\assets\\assets and scripts\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\assets and scripts\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\assets\\imported assets\\kinemation\\sightsaligner\\coreanimcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\imported assets\\kinemation\\sightsaligner\\coreanimcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\ScopeSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\ScopeAimingCinemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMPro_Private.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMPro_Private.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\NewBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SimpleGameUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperShoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SpyGameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\NpcController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeFOV.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeToggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|c:\\users\\simon\\onedrive\\desktop\\neutralized\\assets\\npcanimationoffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0514BC4-311E-40D0-000C-1969A2A37C34}|Assembly-CSharp.csproj|solutionrelative:assets\\npcanimationoffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,186 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OnScreenButton.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenButton.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenButton.cs",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenButton.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T00:52:58.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Title": "NpcAnimationOffset.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\NpcAnimationOffset.cs",
+              "RelativeDocumentMoniker": "Assets\\NpcAnimationOffset.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\NpcAnimationOffset.cs",
+              "RelativeToolTip": "Assets\\NpcAnimationOffset.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T00:50:59.828Z",
+              "WhenOpened": "2025-12-18T01:08:52.046Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NpcController.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\Assets and Scripts\\NpcController.cs",
-              "RelativeDocumentMoniker": "Assets\\Assets and Scripts\\NpcController.cs",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\Assets and Scripts\\NpcController.cs",
-              "RelativeToolTip": "Assets\\Assets and Scripts\\NpcController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAYwJ0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T00:02:35.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CoreAnimComponent.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\Imported Assets\\Kinemation\\SightsAligner\\CoreAnimComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Imported Assets\\Kinemation\\SightsAligner\\CoreAnimComponent.cs",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Assets\\Imported Assets\\Kinemation\\SightsAligner\\CoreAnimComponent.cs",
-              "RelativeToolTip": "Assets\\Imported Assets\\Kinemation\\SightsAligner\\CoreAnimComponent.cs",
-              "ViewState": "AgIAAPoAAAAAAAAAAAAYwDYBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T05:30:11.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ScopeAimingCinemachine.cs",
-              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\ScopeAimingCinemachine.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\ScopeAimingCinemachine.cs",
-              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\ScopeAimingCinemachine.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\ScopeAimingCinemachine.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T17:01:14.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ScopeSystem.cs",
-              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\ScopeSystem.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\ScopeSystem.cs",
-              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\ScopeSystem.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\ScopeSystem.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T16:57:56.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TMPro_Private.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMPro_Private.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMPro_Private.cs",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Neutralized\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMPro_Private.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMPro_Private.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAADwv3gAAACnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T16:31:34.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NewBehaviourScript.cs",
-              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\NewBehaviourScript.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\NewBehaviourScript.cs",
-              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\NewBehaviourScript.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\Easy FPS\\Scripts\\NewBehaviourScript.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T06:16:58.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SimpleGameUI.cs",
-              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SimpleGameUI.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SimpleGameUI.cs",
-              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SimpleGameUI.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SimpleGameUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T04:18:39.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SniperShoot.cs",
-              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperShoot.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperShoot.cs",
-              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperShoot.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperShoot.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAkwEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T03:48:45.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SpyGameManager.cs",
-              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SpyGameManager.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SpyGameManager.cs",
-              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SpyGameManager.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SpyGameManager.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAkwG4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T03:47:27.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "NpcController.cs",
-              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\NpcController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\NpcController.cs",
-              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\NpcController.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\NpcController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAkwHMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T03:37:42.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SniperScopeFOV.cs",
-              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeFOV.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeFOV.cs",
-              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeFOV.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeFOV.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T07:31:57.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SniperScopeToggle.cs",
-              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeToggle.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeToggle.cs",
-              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeToggle.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\SniperScopeToggle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T07:22:50.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\GameManager.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\GameManager.cs",
-              "ToolTip": "C:\\Users\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\GameManager.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Yotam\\Desktop\\Shared Unity 3D game\\Neutralized\\Assets\\GameManager.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T06:27:27.745Z"
             }
           ]
         }
