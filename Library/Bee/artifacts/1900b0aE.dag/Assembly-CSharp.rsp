@@ -393,12 +393,9 @@
 "Assets/InstructionsMenu.cs"
 "Assets/MainMenu.cs"
 "Assets/NpcAnimationOffset.cs"
-<<<<<<< HEAD
-"Assets/RoundTimerUI.cs"
-=======
 "Assets/PauseMenuUI.cs"
+"Assets/RoundTimerUI.cs"
 "Assets/SettingsMenu.cs"
->>>>>>> 5a89510bdde949fc89ee71d1d643425c4d044313
 -langversion:9.0
 
 /deterministic
